@@ -246,3 +246,11 @@ main {
     border-bottom: 1px;
     width: 60%
   }
+
+  .note {
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin-left: 2rem;
+    font-weight: normal;
+}
