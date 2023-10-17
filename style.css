@@ -133,3 +133,10 @@ section {
     flex-direction: column;
     gap: 2rem;
   }
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
