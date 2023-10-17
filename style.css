@@ -54,8 +54,13 @@ section {
     align-items: center;
   }
 
-  .information-container {
+.information-container {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+  }
+
+.gender-age {
+    display: flex;
+    gap: 2rem;
   }
