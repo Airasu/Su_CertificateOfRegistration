@@ -64,3 +64,15 @@ section {
     display: flex;
     gap: 2rem;
   }
+
+.general-information2 {
+    background-color: #ddccff;
+    padding: 0.3rem;
+    border-bottom: solid black;
+    border-top: solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  
