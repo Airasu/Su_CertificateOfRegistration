@@ -85,3 +85,10 @@ section {
     display: flex;
     gap: 1rem;
   }
+
+.general-information2 {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: start;
+  }
+
