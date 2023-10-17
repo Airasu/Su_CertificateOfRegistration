@@ -30,3 +30,9 @@ header {
 .registration-num h4 span {
         color: red;
       }
+
+main {
+        border: solid black;
+        min-height: 100vh;
+      }
+      
