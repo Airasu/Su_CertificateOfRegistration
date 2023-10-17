@@ -109,5 +109,11 @@ section {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-
   }
+
+.section {
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
