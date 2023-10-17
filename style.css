@@ -40,11 +40,7 @@ main {
         border: solid black;
         min-height: 100vh;
 }
-      
-section {
-        padding-bottom: 1rem;
-}
-      
+
 .stud-info{
         background-color: #ccd2fb;
         text-align: center;
@@ -119,7 +115,7 @@ section {
 }
   
   .section {
-  margin-left: 3rem;
+  margin-left: 1.2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -159,15 +155,18 @@ section {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-left: -.7rem;
 }
 
 .lab {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-left: -.7rem;
 }
 .credit {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-left: -.7rem;
 }
