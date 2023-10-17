@@ -326,7 +326,11 @@ main {
 }
 
 .cell4 {
-    margin-right: 2rem
+    margin-right: 4rem
+}
+
+.assess {
+    word-spacing: 50px; 
 }
 .row4 {
     display: flex;
@@ -339,5 +343,22 @@ main {
     border-bottom: 2px solid #000;
 }
 .cell5  {
-    margin-right: 6.1rem
+    margin-right: 11.2rem
+}
+.row5 {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    justify-content: flex-end;
+    text-align: right;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-bottom: 2px solid #000;
+}
+.cell6 {
+    margin-right: 4rem
+}
+
+.balance {
+    word-spacing: 50px;
 }
