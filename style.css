@@ -7,6 +7,13 @@
   body {
     padding: 3rem;
   }
-
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
   
   
