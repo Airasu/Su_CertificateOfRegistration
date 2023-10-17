@@ -40,3 +40,10 @@ section {
         padding-bottom: 1rem;
       }
       
+.general-info-header-1 {
+        background-color: #ddccff;
+        text-align: center;
+        padding: 0.3rem;
+        border: solid black;
+        border-width: 1px 0;
+      }
