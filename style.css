@@ -27,4 +27,6 @@ header {
     max-width: 100px;
   }
   
-  
+.registration-num h4 span {
+        color: red;
+      }
