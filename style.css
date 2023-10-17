@@ -192,3 +192,14 @@ main {
     margin-left: -.7rem;
     font-family: Arial, sans-serif;
 }
+
+.one-line-container {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    margin-left: 24rem;
+}
+
+.one-line-container > div {
+    margin-right: 15px;
+}
