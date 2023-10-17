@@ -36,3 +36,7 @@ main {
         min-height: 100vh;
       }
       
+section {
+        padding-bottom: 1rem;
+      }
+      
