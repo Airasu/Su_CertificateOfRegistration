@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-  
+
 body {
     padding: 3rem;
 }
@@ -22,6 +22,7 @@ h1 {
     letter-spacing: 8px;
     font-weight: 900;
 }
+
 .cor-heading {
     text-align: center;
     font-family: Arial, sans-serif;
@@ -33,7 +34,7 @@ h1 {
     align-items: center;
     gap: 3rem;
 }
-  
+
 .logo-container img {
     max-width: 1000px;
     margin-left: -10rem;
@@ -45,22 +46,22 @@ h1 {
 }
 
 .reg-number h4 span {
-        color: rgb(166, 12, 12);
-        font-family: Arial, sans-serif;
+    color: rgb(166, 12, 12);
+    font-family: Arial, sans-serif;
 }
 
 main {
-        border: solid black;
-        min-height: 100vh;
+    border: solid black;
+    min-height: 100vh;
 }
 
-.stud-info{
-        background-color: #ccd2fb;
-        text-align: center;
-        padding: 0.3rem;
-        border: solid black;
-        border-width: 1px 0;
-        font-family: Arial, sans-serif;
+.stud-info {
+    background-color: #ccd2fb;
+    text-align: center;
+    padding: 0.3rem;
+    border: solid black;
+    border-width: 1px 0;
+    font-family: Arial, sans-serif;
 }
 
 .general-information {
@@ -93,17 +94,17 @@ main {
     justify-content: space-around;
     align-items: center;
     font-family: Arial, sans-serif;
-    
+
 }
 
-.details {
+.unit {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: Arial, sans-serif;
 }
 
-.details div {
+.unit div {
     display: flex;
     gap: 1rem;
 }
@@ -122,14 +123,14 @@ main {
     font-family: Arial, sans-serif;
 }
 
-  
-.number {
+
+.units {
     margin-left: 4rem;
     display: flex;
     gap: 2rem;
     font-family: Arial, sans-serif;
 }
-  
+
 .credit {
     margin-right: 5rem;
     display: flex;
@@ -137,14 +138,14 @@ main {
     gap: 2rem;
     font-family: Arial, sans-serif;
 }
-  
-  .section {
-  margin-left: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  font-family: Arial, sans-serif;
- }
+
+.section {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: Arial, sans-serif;
+}
 
 .schedule {
     margin-left: 8rem;
@@ -180,7 +181,7 @@ main {
     margin-left: 1rem;
     font-family: Arial, sans-serif;
 }
-  
+
 .lec {
     display: flex;
     flex-direction: column;
@@ -196,6 +197,7 @@ main {
     margin-left: -.7rem;
     font-family: Arial, sans-serif;
 }
+
 .credit {
     display: flex;
     flex-direction: column;
@@ -211,9 +213,10 @@ main {
     margin-left: 24rem;
 }
 
-.one-line-container > div {
+.one-line-container>div {
     margin-right: 15px;
 }
+
 .total {
     display: flex;
     flex-direction: row;
@@ -223,9 +226,9 @@ main {
     margin: 0 0 0 100px;
     margin-left: 24.5rem;
     font-family: Arial, sans-serif;
-  }
-  
-  .total-lec {
+}
+
+.total-lec {
     margin: 0 0 0 20px;
     border-style: solid;
     padding-left: 2px;
@@ -235,9 +238,9 @@ main {
     border-bottom: 1px;
     width: 60%;
     margin-left: .5rem;
-  }
-  
-  .total-lab {
+}
+
+.total-lab {
     margin: 0 0 0 20px;
     border-style: solid;
     padding-left: 5px;
@@ -247,9 +250,9 @@ main {
     border-bottom: 1px;
     width: 70%;
     margin-left: .2rem;
-  }
-  
-  .total-cred {
+}
+
+.total-cred {
     margin: 0 0 0 20px;
     border-style: solid;
     padding-left: 2px;
@@ -259,21 +262,22 @@ main {
     border-bottom: 1px;
     width: 60%;
     margin-left: .5rem;
-  }
+}
 
-  .note {
+.note {
     font-style: italic;
     font-family: Arial, sans-serif;
     font-size: 13px;
     margin-left: 2rem;
     font-weight: normal;
 }
-  
+
 .table {
     display: flex-start;
-    flex-direction:column;
+    flex-direction: column;
     border: 3px solid #000;
-    width: 35%; /* Adjust the width as needed */
+    width: 35%;
+    /* Adjust the width as needed */
     margin-left: 2rem;
 }
 
@@ -308,16 +312,19 @@ main {
 }
 
 .item {
-    flex-basis: calc(50% - 10px); /* Half the width with spacing */
+    flex-basis: calc(50% - 10px);
+    /* Half the width with spacing */
     margin-bottom: 5px;
 }
 
 .price {
-    flex-basis: calc(50% - 10px); /* Half the width with spacing */
+    flex-basis: calc(50% - 10px);
+    /* Half the width with spacing */
     margin-bottom: 5px;
     text-align: right;
-    
+
 }
+
 .row3 {
     border-top: 2px solid #000;
     margin-top: -1rem;
@@ -336,8 +343,9 @@ main {
 }
 
 .assess {
-    word-spacing: 50px; 
+    word-spacing: 50px;
 }
+
 .row4 {
     display: flex;
     flex-wrap: wrap;
@@ -348,9 +356,11 @@ main {
     font-size: 14px;
     border-bottom: 2px solid #000;
 }
-.cell5  {
+
+.cell5 {
     margin-right: 11.2rem
 }
+
 .row5 {
     display: flex;
     flex-wrap: wrap;
@@ -361,6 +371,7 @@ main {
     font-size: 14px;
     border-bottom: 2px solid #000;
 }
+
 .cell6 {
     margin-right: 4rem
 }
@@ -368,6 +379,7 @@ main {
 .balance {
     word-spacing: 50px;
 }
+
 .cell7 {
     background-color: #ccd2fb;
     text-align: center;
@@ -376,7 +388,7 @@ main {
     font-weight: bolder;
     letter-spacing: 8px;
     font-size: 14px;
-    
+
 }
 
 .payment-table {
@@ -387,29 +399,30 @@ main {
     width: 100%;
 }
 
-th, td {
-    border: 1px solid #000; /* Add a border around each cell */
-    border-left: none; /* Remove the left border from each cell */
+th,
+td {
+    border: 1px solid #000;
+    border-left: none;
     text-align: center;
     border-bottom: none;
     font-weight: 750;
 }
+
 .rules {
-    text-align: right;
-    font-size: 16px;
-    max-width: 50%;
-    margin-left: auto; /* Move the section to the right side */
-}
-.rules ol {
-    list-style-type: decimal;
-    padding-left: 0; /* Remove the left padding */
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    margin-left: 15rem;
+    font-family: Courier, sans-serif;
+    font-style: italic;
+    font-weight: 100;
 
-.rules li {
-    margin-bottom: 10px;
 }
 
-    
-
-
-
+.rules h3 {
+    margin-left: -3rem;
+    font-style:normal;
+    font-family: Courier, sans-serif;
+    padding: 5%;
+}
