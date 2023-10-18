@@ -108,11 +108,13 @@ main {
     flex-direction: column;
     align-items: center;
     font-family: Arial, sans-serif;
+    letter-spacing: .3cm;
 }
 
 .unit div {
     display: flex;
     gap: 1rem;
+    letter-spacing: normal;
 }
 
 .general-information2 {
@@ -146,7 +148,7 @@ main {
 }
 
 .section {
-    margin-left: 2rem;
+    margin-left: 1rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -154,7 +156,7 @@ main {
 }
 
 .schedule {
-    margin-left: 8rem;
+    margin-left: 5rem;
     margin-right: 1rem;
     display: flex;
     flex-direction: column;
@@ -163,7 +165,7 @@ main {
 }
 
 .faculty {
-    margin-left: 2rem;
+    margin-left: 4rem;
     margin-right: 2rem;
     display: flex;
     flex-direction: column;
