@@ -21,6 +21,8 @@ h1 {
     font-size: 24px;
     letter-spacing: 8px;
     font-weight: 900;
+    color: rgb(64, 8, 8);
+    color: inear-gradient(90deg, rgba(64, 8, 8, 1) 0%, rgba(255, 0, 0, 1) 100%);
 }
 
 .cor-heading {
@@ -56,8 +58,10 @@ main {
 }
 
 .stud-info {
-    background-color: #ccd2fb;
+    background: rgb(64, 8, 8);
+    background: linear-gradient(90deg, rgba(64, 8, 8, 1) 0%, rgba(255, 0, 0, 1) 100%);
     text-align: center;
+    color: white;
     padding: 0.3rem;
     border: solid black;
     border-width: 1px 0;
@@ -86,7 +90,9 @@ main {
 }
 
 .general-information-header2 {
-    background-color: #ccd2fb;
+    background: rgb(64, 8, 8);
+    background: linear-gradient(90deg, rgba(64, 8, 8, 1) 0%, rgba(255, 0, 0, 1) 100%);
+    color:white;
     padding: 0.3rem;
     border-bottom: solid black;
     border-top: solid black;
@@ -277,8 +283,8 @@ main {
     flex-direction: column;
     border: 3px solid #000;
     width: 35%;
-    /* Adjust the width as needed */
     margin-left: 2rem;
+    height: fit-content;
 }
 
 .row {
@@ -288,7 +294,9 @@ main {
 }
 
 .row1 {
-    background-color: #ccd2fb;
+    background: rgb(64, 8, 8);
+    background: linear-gradient(90deg, rgba(64, 8, 8, 1) 0%, rgba(255, 0, 0, 1) 100%);
+    color: white;
     text-align: center;
     font-family: Arial, sans-serif;
     border-bottom: 2px solid #000;
@@ -313,13 +321,11 @@ main {
 
 .item {
     flex-basis: calc(50% - 10px);
-    /* Half the width with spacing */
     margin-bottom: 5px;
 }
 
 .price {
     flex-basis: calc(50% - 10px);
-    /* Half the width with spacing */
     margin-bottom: 5px;
     text-align: right;
 
@@ -381,7 +387,9 @@ main {
 }
 
 .cell7 {
-    background-color: #ccd2fb;
+    background: rgb(64, 8, 8);
+    background: linear-gradient(90deg, rgba(64, 8, 8, 1) 0%, rgba(255, 0, 0, 1) 100%);
+    color: white;
     text-align: center;
     font-family: Arial, sans-serif;
     border-bottom: 2px solid #000;
@@ -417,12 +425,22 @@ td {
     font-family: Courier, sans-serif;
     font-style: italic;
     font-weight: 100;
-
 }
 
 .rules h3 {
+    line-height: 50px;
     margin-left: -3rem;
     font-style:normal;
-    font-family: Courier, sans-serif;
-    padding: 5%;
 }
+
+.receipt {
+    margin-top: 5rem;
+    justify-content: center;
+    width: 100%;
+    gap: 15em;
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 50px;
+}
+
