@@ -453,10 +453,20 @@ td {
 }
 
 .line{
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 0.2;
+}
+
+.line p {
+    margin-top: 1rem;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 footer {
@@ -466,6 +476,7 @@ footer {
 
 footer p {
     text-align: end;
+    font-family: Arial, sans-serif;
 }
 
 footer div {
