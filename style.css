@@ -437,10 +437,44 @@ td {
     margin-top: 5rem;
     justify-content: center;
     width: 100%;
-    gap: 15em;
+    gap: 10em;
     display: flex;
     font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 50px;
+}
+
+.approved {
+    margin-top: 5em;
+    width: 80%;
+    margin-bottom: 10em;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.line{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin-top: 10rem;
+    align-items: center;
+}
+
+footer p {
+    text-align: end;
+}
+
+footer div {
+    background: rgb(64, 8, 8);
+    background: linear-gradient(90deg, rgba(64, 8, 8, 1) 0%, rgba(255, 0, 0, 1) 100%);
+    color: white;
+    border-top: solid 2px black;
+    text-align: center;
+    padding: 0.1rem;
+    font-family: Arial, sans-serif;
 }
 
